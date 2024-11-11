@@ -1,0 +1,15 @@
+# WordPress Core files (ignorer wp-admin et wp-includes)
+wp-admin/
+wp-includes/
+
+# Fichiers générés dynamiquement
+wp-content/uploads/
+wp-content/cache/
+wp-content/backups/
+
+# Fichiers temporaires et logs
+*.log
+*.tmp
+
+# Fichiers de base de données (optionnel, à gérer autrement)
+*.sql
